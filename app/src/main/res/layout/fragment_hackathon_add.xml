@@ -1,0 +1,65 @@
+<!-- fragment_hackathon_add.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the layout for adding Hackathon details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/hackathonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hackathon Name"  />
+
+        <EditText
+            android:id="@+id/hackathonDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"  />
+
+        <EditText
+            android:id="@+id/hackathonLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"  />
+
+        <EditText
+            android:id="@+id/hackathonOrganizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Organizer" />
+
+        
+
+        <EditText
+            android:id="@+id/projectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Project Name" />
+
+        <EditText
+            android:id="@+id/technologiesUsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Technologies Used" />
+
+        <EditText
+            android:id="@+id/projectDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Project Description" />
+
+        <!-- ... Existing code ... -->
+
+
+        <Button
+            android:id="@+id/addHackathonFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Add"/>
+    </LinearLayout>
+</layout>
